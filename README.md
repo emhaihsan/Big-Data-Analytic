@@ -1,16 +1,16 @@
-# Repository Tugas Kuliah Analisis Big Data
+# Big Data Analysis Lecture Assignment Repository
 
 ### mtsamples.csv
-Data transkrip medis yang diambil dari [mtsamples](https://www.mtsamples.com). Data terdiri 5003 record dan 5 kolom yaitu:
-* Type/Specialty: Tipe Penyakit / Bidang
-* Sample Name	: Nama Sampel
-* Description : Deskripsi singkat terkait sampel transkrip	
-* Transcript : Detail transkrip
-* Keywords : Kata kunci terkait
+Medical transcript data taken from [mtsamples](https://www.mtsamples.com). The data consists of 5003 records and 5 columns, namely:
+* Type/Specialty: Disease Type / Field
+* Sample Name: Sample name
+* Description: A brief description of the transcript sample
+* Transcript: Transcript details
+* Keywords: Related keywords
 
 ### mtsamples_scraping.ipynb
-Notebook untuk melakukan scraping pada web [mtsamples](https://www.mtsamples.com). 
-Scraping menggunakan bahasa pemrograman Python dan library [Beautiful Soup](https://beautiful-soup-4.readthedocs.io/en/latest/#) 
+Notebook for scraping the web [mtsamples](https://www.mtsamples.com).
+Scraping uses the Python programming language and the [Beautiful Soup] library (https://beautiful-soup-4.readthedocs.io/en/latest/#)
 
 ### mapper.py & reducer.py
-Script Python untuk melakukan proses mapReduce pada text.
+Python script to perform the mapReduce process on text.
